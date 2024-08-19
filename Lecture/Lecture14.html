@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- 시작할 때 무조건 필요 -->
+<html> <!--하나 담는 곳 -->
+
+    <head> <!--metadata: 제목, 작가, 언어 등 -->
+        <title> 고윤석</title> <!--제목 -->
+    </head>
+
+    <body> <!--주요 내용-->
+
+        <h1> Python </h1> <!--크기 h1 > h2 > h3 ... -->
+
+        <p> Hello </p> <!--paragraph -->
+
+        <a href="./Lecture14_another.html"> <!--사이트 -->
+            Go to python.org</a> <!--출력되는 것 -->
+
+        <ol> <!--ordered list (앞에 숫자 순서대로 출력) -->       
+            <li>Park</li>     <!--list -->
+            <li>Lee</li>                        
+            <li>Kim</li>
+        </ol>
+
+        <ul> <!--unordered list (숫자가 아닌 -으로 출력)-->
+            <li>Park</li>
+            <li>Lee</li>                
+            <li>Kim</li>
+        </ul>
+
+        <div> <!--구역 1 -->
+            <h2> Div 1</h2> 
+        </div>
+        <div> <!--구역 2 -->
+            <h2> Div 2 </h2> 
+        <p> <i> Italic </i> <br> <!--띄어쓰기--> <u> Underbar</u> <br> <strong> Bold</strong></p>
+        </div>
+
+        <img src = 'https://www.khu.ac.kr/kor/resources/user/img/pc/common/gateLogo.png' 
+        width="100px" height="200px"> <!--이미지 주소 -->
+
+        <table> <!--표 -->
+            <tr> <!--table row--> 
+                <th>Name</th> <!--table header--> 
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Park</td> <!--table data 1-->
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Lee</td> <!--table data 2-->
+                <td>21</td>
+            </tr>
+
+        </table>
+
+        <form method="get" action="./Lecture14_another.html"> <!--데이터 보내기 -->
+            <label>User ID:</label><br> <!--라벨 -->
+            <input type="text" name="myid"><br> <!--텍스트 입력 --> 
+            <label>Password:</label><br>
+            <input type="password" name="mypwd"><br><br>
+            <input type="submit" value="Login"> <!--버튼 -->
+        </form>
+        
+        <form method="get" action="./Lecture14_another.html">
+            <input type="radio" name="blood" value="a"> <!--고르기 -->
+            <label>A type</label><br>
+            <input type="radio" name="blood" value="b">
+            <label>B type</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <form method="get" action="./Lecture14_another.html">
+            <input type="checkbox" name="friend" value="p"> <!--체크 박스 -->
+            <label>Park</label><br>
+            <input type="checkbox" name="friend" value="k">
+            <label>Kim</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+
+</html>

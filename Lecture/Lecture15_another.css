@@ -1,0 +1,38 @@
+/* 통으로 설정 */
+body > p /* body 안의 p만 바꾸기, body p : body 안의 모든 p 바꾸기 */{
+    /* 문자 위치 */
+    text-align: center;
+    /* 일반 색 설정 */
+    color: red;
+}
+h1 {
+    /* RGB 설정 */
+    color: rgb(199, 190, 30);
+}
+p {
+    /* 코드 설정 */
+    color: #0000FF;
+    font-size: 20px;
+}
+/* ID 설정 */
+#Good, .ID /* 묶어 쓰기 가능 */ { 
+    text-align: Left;
+}
+/* Class 설정 */
+.professor_name{
+    /* 문자 크기 */
+    font-size: 30px;
+    /* 문자 스타일 */
+    font-style: italic;
+    /* 문자 두께*/
+    font-weight: 100;
+}
+.student_name{
+    font-size: 15px;
+    /* 배경 색 */
+    background-color: rgb(199, 190, 30);
+    /* 너비 */
+    width: 50%;
+    /* 높이 */
+    height: 50px;
+}
