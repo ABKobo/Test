@@ -1,0 +1,45 @@
+.self{
+    font-size: 80px;
+    color: royalblue;
+    font-weight: 1000;
+    background-color: yellow;
+    text-align: center;
+}
+
+#intro{
+    text-align: left;
+    font-size: 20px;
+    width: 90%;
+}
+
+.page{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 10%;
+
+}
+
+.under{
+    text-align: right;
+    height: 150px;
+    background-color:dimgray;
+    color: white;
+    font-weight: 300;
+}
+
+#web{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#left{
+    float: left;
+    clear: both;
+}
+
+.center{
+    text-align: center;
+}
